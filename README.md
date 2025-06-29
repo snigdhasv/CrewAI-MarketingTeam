@@ -234,7 +234,3 @@ We welcome contributions! Please see our contributing guidelines for:
 - Code contributions and improvements
 - Documentation updates
 - Tool integrations
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
