@@ -1,8 +1,8 @@
 # Instagram Marketing Crew - AI-Powered Content Strategy
 
-## 🎯 Project Overview
+## 🚀 Project Overview
 
-The Instagram Marketing Crew is an intelligent, multi-agent AI system that automates and optimizes Instagram content strategy and creation. Built with [CrewAI](https://crewai.com), this project transforms how businesses and content creators approach Instagram marketing by providing data-driven insights, strategic planning, and creative content generation.
+The Instagram Marketing Crew is a professional, multi-agent AI system that automates and optimizes Instagram content strategy and creation. Built with [CrewAI](https://crewai.com), this project empowers businesses and content creators to approach Instagram marketing with data-driven insights, strategic planning, and creative content generation.
 
 ## 🌟 The Real-World Problem
 
@@ -19,150 +19,19 @@ The Instagram Marketing Crew is an intelligent, multi-agent AI system that autom
 Our AI-powered crew addresses these challenges by providing:
 
 - **Automated Market Research**: Real-time analysis of Instagram trends, hashtags, and competitor activities
-- **Strategic Content Planning**: Data-driven content calendars that align with trending topics and audience preferences
+- **Strategic Content Planning**: Data-driven content calendars aligned with trending topics and audience preferences
 - **Visual Content Generation**: Detailed image descriptions optimized for AI image generators
 - **SEO-Optimized Copywriting**: Engaging captions with trending hashtags and strategic keywords
 - **Comprehensive Reporting**: Complete content strategy documentation for team collaboration
+- **Modern Streamlit UI**: User-friendly web interface for seamless interaction and output visualization
 
-## 🤖 Meet Your AI Marketing Team
-
-### 1. **Market Researcher** 🔍
-
-- **Role**: Instagram Market Researcher
-- **Capabilities**:
-  - Analyzes industry trends and competitor activities
-  - Identifies trending hashtags and topics
-  - Researches optimal posting times and content performance
-  - Uses web search tools to gather real-time data
-- **Output**: Comprehensive market research report with actionable insights
-
-### 2. **Content Strategist** 📅
-
-- **Role**: Instagram Content Strategist
-- **Capabilities**:
-  - Develops weekly content calendars based on research findings
-  - Aligns content themes with brand voice and audience interests
-  - Plans optimal posting schedules
-  - Integrates trending topics into strategic content themes
-- **Output**: Detailed content calendar with themes, keywords, and hashtags
-
-### 3. **Visual Creator** 🎨
-
-- **Role**: Instagram Visual Creator
-- **Capabilities**:
-  - Generates detailed image descriptions for AI image generators
-  - Creates visual concepts that align with content strategy
-  - Ensures brand consistency across visual content
-  - Optimizes descriptions for maximum visual impact
-- **Output**: Detailed image descriptions for each post in the content calendar
-
-### 4. **Copywriter** ✍️
-
-- **Role**: Instagram Copywriter
-- **Capabilities**:
-  - Crafts engaging captions and call-to-actions
-  - Incorporates trending hashtags and keywords
-  - Maintains brand voice and tone consistency
-  - Optimizes copy for Instagram's algorithm
-- **Output**: SEO-optimized copy for each Instagram post
-
-## 🚀 Key Features
-
-### Real-Time Research
-
-- Web search integration for current trends and hashtags
-- Instagram-specific research tools
-- Competitor analysis and benchmarking
-
-### Strategic Planning
-
-- Data-driven content calendar creation
-- Trend integration and optimization
-- Brand voice alignment
-
-### Creative Automation
-
-- AI-optimized image descriptions
-- SEO-enhanced copywriting
-- Hashtag strategy optimization
-
-### Comprehensive Output
-
-- Market research reports
-- Content calendars
-- Visual content descriptions
-- Ready-to-use copy
-- Final strategy documentation
-
-## 💼 Use Cases
-
-### For Businesses
-
-- **Small Businesses**: Level the playing field with enterprise-level marketing strategy
-- **E-commerce**: Optimize product promotion with trending topics and hashtags
-- **Service Providers**: Create engaging content that drives leads and conversions
-- **Startups**: Establish strong social media presence from day one
-
-### For Content Creators
-
-- **Influencers**: Stay ahead of trends and maintain engagement
-- **Bloggers**: Cross-promote content with optimized Instagram strategy
-- **Artists/Creatives**: Showcase work with strategic visual storytelling
-- **Personal Brands**: Build consistent, engaging online presence
-
-### For Marketing Teams
-
-- **Agencies**: Scale content creation for multiple clients
-- **In-House Teams**: Reduce research time and increase content quality
-- **Freelancers**: Offer comprehensive Instagram strategy services
-
-## 🛠️ Technical Architecture
-
-### Built with CrewAI
-
-- **Multi-Agent Collaboration**: Specialized AI agents working together
-- **Sequential Processing**: Optimized workflow for content strategy
-- **Tool Integration**: Web search, Instagram research, and content analysis
-- **Configurable Workflows**: Easy customization for different industries
-
-### Key Technologies
-
-- **Python 3.10+**: Modern Python with async capabilities
-- **CrewAI Framework**: Advanced multi-agent orchestration
-- **Serper API**: Real-time web search integration
-- **YAML Configuration**: Easy agent and task customization
-- **Markdown Output**: Clean, readable documentation
-
-## 📊 Expected Results
-
-### Time Savings
-
-- **Research**: 4-6 hours → 5 minutes
-- **Strategy Planning**: 2-3 hours → 2 minutes
-- **Content Creation**: 3-4 hours → 1 minute
-- **Total Weekly Savings**: 9-13 hours
-
-### Quality Improvements
-
-- **Trend Integration**: Always current with latest Instagram trends
-- **SEO Optimization**: Algorithm-friendly content structure
-- **Consistency**: Brand-aligned messaging across all content
-- **Engagement**: Data-driven content that resonates with target audience
-
-### ROI Benefits
-
-- **Increased Reach**: Trending hashtags and topics boost visibility
-- **Higher Engagement**: Strategic content planning improves interaction rates
-- **Brand Growth**: Consistent, professional content builds audience trust
-- **Competitive Advantage**: Stay ahead of competitors with real-time insights
-
-## 🔧 Installation & Setup
+## 🛠️ Installation & Setup
 
 ### Prerequisites
 
 - Python >=3.10 <3.14
 - [UV](https://docs.astral.sh/uv/) package manager
-- OpenAI API key
+- Gemini API key (or OpenAI API key if using OpenAI)
 - Serper API key (for web search functionality)
 
 ### Quick Start
@@ -178,10 +47,13 @@ cd project_crew
 crewai install
 
 # Set up environment variables
-# Add your MODEL, GEMINI_API_KEY and SERPER_API_KEY to .env file
+# Add your MODEL, GEMINI_API_KEY and SERPER_API_KEY to .env file in the project root
 
-# Run the crew
+# Run the crew (CLI)
 crewai run
+
+# Or launch the Streamlit UI (recommended)
+streamlit run ../streamlit_app.py  # from inside project_crew, or adjust path as needed
 ```
 
 ### Configuration
@@ -189,7 +61,65 @@ crewai run
 1. **Agents**: Modify `src/project_crew/config/agents.yaml` to customize agent roles and goals
 2. **Tasks**: Update `src/project_crew/config/tasks.yaml` to adjust task descriptions and outputs
 3. **Tools**: Add custom tools in `src/project_crew/tools/custom_tool.py`
-4. **Inputs**: Customize user inputs in `src/project_crew/main.py`
+4. **Inputs**: Customize user inputs in `src/project_crew/main.py` or use the Streamlit UI
+
+---
+
+## 🤖 AI Marketing Team
+
+### 1. Market Researcher
+
+- Analyzes industry trends and competitor activities
+- Identifies trending hashtags and topics
+- Researches optimal posting times and content performance
+- Uses web search tools to gather real-time data
+- **Output**: Comprehensive market research report
+
+### 2. Content Strategist
+
+- Develops weekly content calendars based on research findings
+- Aligns content themes with brand voice and audience interests
+- Plans optimal posting schedules
+- Integrates trending topics into strategic content themes
+- **Output**: Detailed content calendar
+
+### 3. Visual Creator
+
+- Generates detailed image descriptions for AI image generators
+- Creates visual concepts that align with content strategy
+- Ensures brand consistency across visual content
+- **Output**: Image descriptions for each post
+
+### 4. Copywriter
+
+- Crafts engaging captions and call-to-actions
+- Incorporates trending hashtags and keywords
+- Maintains brand voice and tone consistency
+- Optimizes copy for Instagram's algorithm
+- **Output**: SEO-optimized copy for each post
+
+---
+
+## 🌍 Real-World Applications
+
+This project is designed for:
+
+- **Brands & Businesses**: Streamline and professionalize Instagram content planning, ensuring alignment with current trends and audience interests.
+- **Agencies**: Automate research and content generation for multiple clients, saving time and increasing output quality.
+- **Content Creators & Influencers**: Receive data-driven content ideas, visual prompts, and optimized captions to boost engagement and growth.
+- **Marketing Teams**: Collaborate more efficiently with AI-generated reports and content calendars, reducing manual workload and improving consistency.
+
+By leveraging AI, teams can focus on creative strategy and brand building, while the system handles research, ideation, and content drafting.
+
+---
+
+## 📊 Expected Results
+
+- **Time Savings**: Research, planning, and content creation reduced from hours to minutes
+- **Quality Improvements**: Always current with latest trends, SEO-optimized, and brand-consistent
+- **ROI Benefits**: Increased reach, engagement, and brand growth
+
+---
 
 ## 📁 Project Structure
 
@@ -203,30 +133,27 @@ project_crew/
 │   │   └── custom_tool.py   # Web search and Instagram research tools
 │   ├── crew.py              # Main crew orchestration logic
 │   └── main.py              # Entry point and user input handling
+├── streamlit_app.py         # Streamlit web UI
 ├── tests/                   # Test suite
-├── pyproject.toml          # Project dependencies and metadata
-└── README.md               # This file
+├── pyproject.toml           # Project dependencies and metadata
+└── README.md                # This file
 ```
 
-## 🎯 Getting Started
+---
 
-1. **Clone the repository**
-2. **Install dependencies** with `crewai install`
-3. **Configure API keys** in your `.env` file
-4. **Customize agents and tasks** for your specific industry
-5. **Run the crew** with `crewai run`
-6. **Review outputs** in the generated markdown files
+## ⚠️ Limitations & Considerations
 
-## 🔄 Workflow Example
+- **Instagram Analytics**: Due to Instagram API restrictions, deep engagement metrics and competitor analytics are limited. The system relies on public data and third-party APIs (e.g., Serper for web search). For advanced analytics, integration with paid third-party services or manual data input may be required.
+- **No Direct Instagram Posting**: The system generates content and strategy but does not post directly to Instagram.
+- **Web Scraping**: Not used by default due to legal and ethical considerations. If deeper analytics are needed, consider integrating with compliant third-party analytics APIs.
+- **LLM Provider**: By default, the system is configured for Gemini. To use OpenAI or another provider, update the `.env` and configuration files accordingly.
+- **Content Quality**: While the AI provides high-quality suggestions, human review is recommended before publishing.
+- **Third-Party API Costs**: Some analytics or search features may require paid API keys for full functionality.
+- **Data Privacy**: Ensure compliance with data privacy laws and platform terms when integrating third-party services.
 
-1. **Input**: Provide Instagram account description and weekly topic
-2. **Research**: Market researcher analyzes trends and competitors
-3. **Strategy**: Content strategist creates weekly calendar
-4. **Visuals**: Visual creator generates image descriptions
-5. **Copy**: Copywriter crafts engaging captions
-6. **Output**: Complete content strategy with ready-to-use assets
+---
 
-## 🤝 Contributing
+## 📝 Contributing
 
 We welcome contributions! Please see our contributing guidelines for:
 
@@ -234,3 +161,5 @@ We welcome contributions! Please see our contributing guidelines for:
 - Code contributions and improvements
 - Documentation updates
 - Tool integrations
+
+---
