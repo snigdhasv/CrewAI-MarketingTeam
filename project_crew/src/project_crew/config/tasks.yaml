@@ -7,15 +7,24 @@ market_research:
     Description of the instagram account for which you are doing this research: 
     <INSTAGRAM_ACCOUNT_DESCRIPTION>{instagram_description}</INSTAGRAM_ACCOUNT_DESCRIPTION>
 
-    Find the most relevant topics, hashtags and trends to use the the posts for next week. The focus of the following week is the following: 
+    The brand tone of the instagram account for which you are doing this research:
+    <BRAND_TONE>{brand_tone}</BRAND_TONE>
+
+    The demographic of the instagram account for which you are doing this research:
+    <DEMOGRAPHIC>{target_demographics}</DEMOGRAPHIC>
+
+    Find the most relevant topics, hashtags and trends to use for the posts for next week. The focus of the following week is the following: 
     <NEXT_WEEK_CONTENT>{topic_of_the_week}</NEXT_WEEK_CONTENT>
+
+    The goals of the content for the brand for which you are doing this research:
+    <BRAND_GOALS>{brand_goals}</BRAND_GOALS>
 
   expected_output: >
     A report with the most relevant information that you found, including relevant hashtags for this week's content and all other information that could be useful to the team working on content creation.
 
 content_strategy:
   description: >
-    Based on the market research findings, develop a comprehensive content calendar for a week. The calendar should specify the theme for each day of the week (from Monday to Sunday) where some content should be posted, and preliminary ideas for post content. For now, focus on a three-day content calendar, including the most relevant keywords and hashtags to use in each post.
+    Based on the market research findings, develop a comprehensive content calendar for a week following the preferences of the described audience. The calendar should specify the theme for each day of the week (from Monday to Sunday) where some content should be posted, and preliminary ideas for post content. For now, focus on a 5-day content calendar, including the most relevant keywords and hashtags to use in each post.
   expected_output: >
     A detailed week-long content calendar, formatted as markdown, that includes days of the week (from monday to friday), a brief overview of content ideas, and the most relevant keywords and hashtags to use in each post. Ensure the calendar aligns with the identified trends and audience preferences.
 
@@ -34,7 +43,7 @@ visual_content_creation:
 
 copywriting:
   description: >
-    Write captivating and relevant copy for each Instagram post of the week, aligning to the strategic themes of the content calendar. The copy should engage the audience, embody the brand's voice, and encourage interaction. The copy should also be SEO-friendly and incorporate the relevant keywords and hashtags contained in the content schedule. 
+    Write captivating and relevant copy for each Instagram post of the week, aligning to the strategic themes of the content calendar and the brand tone. The copy should engage the audience, embody the brand's voice, and encourage interaction. The copy should also be SEO-friendly and incorporate the relevant keywords and hashtags contained in the content schedule. 
 
     Consider the following guidelines when writing the copy:
     - Keep the copy concise and engaging.

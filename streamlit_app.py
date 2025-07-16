@@ -22,6 +22,13 @@ This app runs your CrewAI pipeline to generate:
 description = st.text_area("Enter the Instagram page description:")
 topic = st.text_input("Enter the topic of the week:")
 
+st.markdown("### 🎯 Brand & Audience Information")
+
+brand_tone = st.selectbox("Select brand tone:", ["Casual", "Professional", "Playful", "Inspirational", "Luxury", "Bold", "Minimalist", "Other"])
+target_demographics = st.text_area("Describe your target audience demographics (age, gender, interests, location, etc.):")
+brand_goals = st.multiselect("Select brand goals:", ["Increase Engagement", "Drive Conversions", "Grow Followers", "Raise Awareness", "Launch Product", "Other"])
+custom_goals = st.text_input("Other goals (optional):")
+
 if st.button("Run CrewAI Pipeline"):
     if not description or not topic:
         st.error("Please provide both the Instagram page description and the topic of the week.")
@@ -35,7 +42,14 @@ if st.button("Run CrewAI Pipeline"):
                     return description
                 elif "topic" in prompt.lower():
                     return topic
+                elif "brand_tone" in prompt.lower():
+                    return brand_tone
+                elif "demographics" in prompt.lower():
+                    return target_demographics
+                elif "goal" in prompt.lower():
+                    return ", ".join(brand_goals) + ("; " + custom_goals if custom_goals else "")
                 return ""
+
             builtins.input = fake_input
             try:
                 crew_main.run()

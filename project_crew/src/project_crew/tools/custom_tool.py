@@ -2,13 +2,10 @@ import os
 import json
 import requests
 from crewai.tools import tool
+from langchain_community.document_loaders import WebBaseLoader
 
-# Decorator-based tools
-@tool("Search Internet")
-def search_internet(query: str, limit: int = 5) -> str:
-    """
-    Search the internet using Serper API. Returns top `limit` results.
-    """
+# 🔧 Shared logic for internet search
+def _run_serper_search(query: str, limit: int = 5) -> str:
     url = "https://google.serper.dev/search"
     payload = {"q": query, "num": limit}
     headers = {
@@ -23,12 +20,20 @@ def search_internet(query: str, limit: int = 5) -> str:
     )
     return f"Search results for '{query}':\n\n{formatted}"
 
+
+@tool("Search Internet")
+def search_internet(query: str, limit: int = 5) -> str:
+    """
+    Search the internet using Serper API. Returns top `limit` results.
+    """
+    return _run_serper_search(query, limit)
+
 @tool("Search Instagram")
 def search_instagram(query: str, limit: int = 5) -> str:
     """
     Search Instagram pages via Serper limiting to site:instagram.com.
     """
-    return search_internet(f"site:instagram.com {query}", limit)
+    return _run_serper_search(f"site:instagram.com {query}", limit)
 
 @tool("Open Page")
 def open_page(url: str) -> str:
