@@ -44,6 +44,13 @@ class ProjectCrew():
             config=self.agents_config['copywriter'],
             verbose=True
         )
+        
+    @agent
+    def qa_editor(self) -> Agent:
+        return Agent(
+            config=self.agents_config['qa_editor'],
+            verbose=True,
+        )
 
 
     @task
@@ -82,6 +89,14 @@ class ProjectCrew():
             config=self.tasks_config["report_final_content_strategy"],
             agent=self.content_strategist(),
             output_file="final-content-strategy.md",
+        )
+
+    @task
+    def qa_review_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["qa_review"],
+            agent=self.qa_editor(),
+            output_file="qa-review.md",
         )
 
 
