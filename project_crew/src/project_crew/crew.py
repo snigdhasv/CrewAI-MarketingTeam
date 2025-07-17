@@ -51,6 +51,15 @@ class ProjectCrew():
             config=self.agents_config['qa_editor'],
             verbose=True,
         )
+        
+    @agent
+    def content_director(self) -> Agent:
+        return Agent(
+            config=self.agents_config['content_director'],
+            verbose=True,
+            allow_delegation=True
+        )
+
 
 
     @task
@@ -106,9 +115,17 @@ class ProjectCrew():
         """Creates the ProjectCrew crew"""
 
         return Crew(
-            agents=self.agents, # Automatically created by the @agent decorator
+            # agents=self.agents, # Automatically created by the @agent decorator
+            agents=[
+                self.market_researcher(),
+                self.content_strategist(),
+                self.visual_creator(),
+                self.copywriter(),
+                self.qa_editor(),
+            ],
             tasks=self.tasks, # Automatically created by the @task decorator
-            process=Process.sequential,
+            # process=Process.sequential,
             verbose=True,
-            # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
+            process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
+            manager_agent=self.content_director(),
         )
