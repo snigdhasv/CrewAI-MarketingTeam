@@ -52,13 +52,6 @@ class ProjectCrew():
             verbose=True,
         )
         
-    @agent
-    def content_director(self) -> Agent:
-        return Agent(
-            config=self.agents_config['content_director'],
-            verbose=True,
-            allow_delegation=True
-        )
 
 
 
@@ -124,8 +117,6 @@ class ProjectCrew():
                 self.qa_editor(),
             ],
             tasks=self.tasks, # Automatically created by the @task decorator
-            # process=Process.sequential,
             verbose=True,
-            process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
-            manager_agent=self.content_director(),
+            process=Process.sequential, 
         )

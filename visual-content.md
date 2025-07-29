@@ -1,38 +1,25 @@
-# Instagram Image Descriptions for Birthday Party Outfits (July 2025)
+# Instagram Image Descriptions for Comedy Show Week (July 29th - August 2nd, 2025)
 
-This document provides detailed descriptions for the Instagram images planned for the week, aligning with the content calendar and identified trends.  Each description aims to guide the AI image generator towards creating high-quality visuals that resonate with the target audience (women aged 20-30).
+**Monday, July 29th: Meet the Comedian**
 
-
-**Monday: Elegant Birthday Style**
-
-* **Image Description:** A stunning, well-lit photograph of a woman (25-28 years old, with a sophisticated and modern look) wearing a chic, emerald green jumpsuit.  The jumpsuit should have a flattering silhouette, possibly wide-leg or tailored.  The background is a minimalist, upscale setting – perhaps a rooftop bar at sunset with city lights twinkling in the distance, or a stylishly decorated apartment.  The color palette is rich and elegant, with the emerald green as the focal point, complemented by warm gold tones in the lighting and subtle metallic accents in jewelry. The overall mood is sophisticated, confident, and celebratory.  The woman might be holding a champagne flute or elegantly posing with a small, stylish clutch.  High-quality, professional photography is essential.  Include soft, natural lighting to enhance the mood and overall image quality.
-
-**Keywords:** #elegantbirthdayoutfit #chicbirthdaylook #sophisticatedstyle #birthdaydress #jumpsuitstyle #birthdayoutfit #partyoutfit #ootd #fashion
+**Description:** A vibrant, close-up shot of [Comedian's Name], a female comedian in her early to mid-twenties, mid-performance.  She's smiling engagingly at the audience, holding a microphone in one hand and making a funny, expressive hand gesture with the other. The background is slightly blurred, showing a dimly lit comedy club with warm-toned lighting and a few visible audience members laughing. Color palette is warm and inviting, using amber and gold tones from the stage lights to highlight her facial expressions, with a touch of cool blue in the background to suggest depth. The overall mood is energetic, friendly, and hilarious.  Image should feel professional but not stiff.   High resolution and well-lit.
 
 
-**Tuesday: Festive & Fun Birthday Look**
+**Tuesday, July 30th: Behind the Scenes**
 
-* **Image Description:** A vibrant, dynamic Reel showcasing a quick outfit change. The first outfit is a bright pink mini dress with playful ruffles, paired with vibrant accessories (perhaps a bold statement necklace and colorful heels). The second outfit is a  sunny yellow jumpsuit with a fun print. The background for both outfits should be bright and fun – possibly a decorated birthday party setting or a colorful outdoor space. The video should be fast-paced and energetic, showcasing the outfits from various angles. The overall mood is playful, energetic, and celebratory. The editing should be sharp and modern.
-
-**Keywords:** #festiveoutfit #birthdaypartylook #funbirthdaystyle #colorfuloutfit #partydress #birthdayoutfit #partyoutfit #styleinspo #Reels
+**Description:** A carousel post featuring 3-4 high-quality images.  Image 1: A candid shot of the comedian getting ready backstage, maybe applying makeup or looking at notes with a humorous expression. Image 2: A wide shot of the stage being set up before a show, showcasing the mic, lights, and a few scattered props. Image 3: An action shot capturing the audience's joyous laughter during a particularly funny moment in the show. Image 4: A close-up of a hilarious audience reaction (maybe someone laughing hysterically or a group of friends reacting with joy). Color palette should maintain consistency throughout the carousel, using a mix of warm and cool tones to balance energy and professionalism. The overall mood should be fun, light-hearted, and provide a peek into the 'behind the scenes' excitement.
 
 
-**Wednesday: Casual Chic Birthday Outfit**
+**Wednesday, July 31st: Relatable Comedy**
 
-* **Image Description:** A series of well-lit, lifestyle-style photos of a woman (22-26 years old, radiating a relaxed yet stylish vibe) wearing a stylish yet comfortable outfit suitable for a daytime birthday celebration. This could include tailored high-waisted jeans, a flowy silk top, and trendy sneakers or stylish flats. The background could be a charming café, a trendy bookstore, or a beautifully landscaped park with natural light. The color palette should be neutral and relaxed (e.g., denim, creams, soft pastel colors) with one bold accent color (e.g., a bright bag or jewelry).  The overall mood is casual, relaxed, but still stylish and sophisticated. The photos should show the outfit in different settings to emphasize its versatility.
-
-**Keywords:** #casualbirthdayoutfit #stylishcasual #birthdaystyle #everydaystyle #weekendoutfit #birthdayoutfit #partyoutfit #outfitinspo
+**Description:** A short video clip (Reel) showing a funny sketch. Style should be bright and energetic, incorporating popular trending sounds or music from Instagram Reels.  The clip should focus on a relatable situation experienced by young women – perhaps struggling with dating apps, navigating a difficult friendship, or a relatable office scenario. The visuals should be crisp, clear, and eye-catching. Colour palette should be vibrant and energetic. The overall mood should be lighthearted and humorous.  Consider using text overlays for emphasis.
 
 
-**Thursday: Behind the Scenes: Styling Tips**
+**Thursday, August 1st: Audience Reactions**
 
-* **Image Description:** A short, engaging video showcasing styling tips for accessorizing birthday outfits.  The video should feature a stylish woman showcasing different accessory options (belts, scarves, jewelry, bags) with two to three different outfit bases.  The background could be a dressing room or a brightly lit, organized closet.  The video should include close-up shots of accessories and how they can enhance an outfit’s overall look.  The overall mood is informative, helpful, and engaging.  The video should be well-edited, concise, and visually appealing.
-
-**Keywords:** #stylingtips #birthdaystyletips #fashionhacks #outfitinspo #birthdayoutfit #partyoutfit #styleinspo #fashion #Reels #Shorts
+**Description:** A high-quality, well-composed photo capturing a moment of pure joy and laughter from the audience. Focus on a group of young women (target audience) genuinely laughing during the show. The image should be well-lit and sharp, showcasing the genuine emotions of the audience. Color palette should be bright and positive, possibly with a focus on warmer tones to highlight the feeling of joy and connection.  The overall mood should be contagious laughter and happy vibes.
 
 
-**Friday: User-Generated Content Spotlight**
+**Friday, August 2nd: Weekend Comedy Show Promo**
 
-* **Image Description:** A carousel post featuring 3-4 high-quality images of user-generated content (with permission) showcasing birthday outfits. Each image should be of a different user, highlighting different styles and looks.  Ensure high image quality and diverse representation.  Each image should clearly credit the user (@username) and ideally include a short caption praising their style.  The overall mood is celebratory and inclusive.  The caption should encourage users to share their own birthday outfits using a specific hashtag.
-
-**Keywords:** #usergeneratedcontent #birthdayoutfitinspo #birthdaylookbook #birthdayoutfit #partyoutfit #styleinspo #fashion #community  #repost
+**Description:** A carousel post with professional-looking promotional images. Image 1:  A visually appealing graphic promoting the show with key information (dates, times, location). Image 2: A short, high-quality video clip showing a funny preview of the comedian's act. Image 3: A visually stunning image of the comedy club venue. Image 4:  A graphic with clear call to action: the ticket link.  Use a consistent color scheme throughout, possibly matching the branding of the comedy club. Maintain a high level of visual quality. The overall mood should be exciting and enticing, prompting viewers to purchase tickets.
