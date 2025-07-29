@@ -153,13 +153,3 @@ project_crew/
 
 ---
 
-## 📝 Contributing
-
-We welcome contributions! Please see our contributing guidelines for:
-
-- Bug reports and feature requests
-- Code contributions and improvements
-- Documentation updates
-- Tool integrations
-
----
